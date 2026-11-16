@@ -68,7 +68,7 @@ stellar-strkey = "0.0.13"
 # XDR types plus base64 for RPC payloads. No `soroban-sdk`: the handful of
 # pool types the bot touches are encoded and decoded by hand in
 # `chain::xdr`, which keeps every ScVal shape visible in one place.
-stellar-xdr = { version = "28.0.0", features = ["base64"] }
+stellar-xdr = { version = "30.0.0", features = ["base64"] }
 thiserror = "2.0.18"
 tokio = { version = "1.51.0", features = ["full"] }
 # The pools file.
